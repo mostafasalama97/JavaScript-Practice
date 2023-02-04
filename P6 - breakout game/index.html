@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>2D Breakout Game-JavScript-Kamal-Yasser_Salama</title>
+    <link rel="stylesheet" href="./style/all.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <button id="ran-btn">Random Body</button>
+
+
+        <div id="gameover">
+            <img src="img/win.jpg" alt="" id="youwon">
+            <img src="img/over.jpg" alt="" id="youlose">
+            <div id="restart">Play Again Ya Looooser!</div>
+        </div>
+      
+        <!-- <input id="ballspeed" type="submit" value = "make ball faster" onclick="increaseballspeed()"> -->
+        <!-- <button id="pauseBtn">pause play</button> -->
+
+        <canvas id="breakout" width="900" height="600"></canvas>
+        
+        <button id="start">Start Play</button>
+        <button id="dark_btn"><i class="fas fa-moon"></i></button>
+        <div class="sound">
+            <img src="img/SOUND_ON.png" alt="" id="sound">
+        </div>
+    </div>
+
+    
+
+
+    <script src="components.js"></script>
+    <script src="game.js"></script>
+</body>
+
+</html>

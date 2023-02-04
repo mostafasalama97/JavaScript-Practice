@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js lec 5</title>
+    <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+    <h1>javascript simble calculator</h1>
+    <h4>CopyRights&#169;mostafa salama</h4>
+    <div id="main">
+        <form name="f">
+            <input type="text" id="screen" name="inscr" placeholder="0">
+            <br>
+            <input type="button" value="1" onclick="f.inscr.value+=1">
+            <input type="button" value="2" onclick="f.inscr.value+=2">
+            <input type="button" value="3" onclick="f.inscr.value+=3">
+            <input type="button" value="+" onclick="addNum()">
+            <br>
+            <input type="button" value="4" onclick="f.inscr.value+=4">
+            <input type="button" value="5" onclick="f.inscr.value+=5">
+            <input type="button" value="6" onclick="f.inscr.value+=6">
+            <input type="button" value="-" onclick="subNum()">
+            <br>
+            <input type="button" value="7" onclick="f.inscr.value+=1">
+            <input type="button" value="8" onclick="f.inscr.value+=2">
+            <input type="button" value="9" onclick="f.inscr.value+=3">
+            <input type="button" value="/" onclick="divNum()">
+            <br>
+            <input type="button" value="c" onclick="f.inscr.value=''">
+            <input type="button" value="0" onclick="f.inscr.value+=0">
+            <input type="button" value="=" onclick="f.inscr.value=eval(f.inscr.value)">
+            <input type="button" value="x" onclick="mulNum()">
+            
+        </form>
+    </div>
+
+    <script src="script/js.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+body {
+    background-color: aquamarine;
+    height: 3000px;
+}
+
+#scoller{
+    background-color: blueviolet;
+    width: 100px;
+    position: fixed;
+    height: 5px;
+}

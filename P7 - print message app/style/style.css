@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+input{
+padding: 20px;
+color: blueviolet;
+background-color: beige;
+font-size: 20px;
+}
+input , button {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    margin: 5px;
+    display: block;
+}
+
+button{
+    background-color: cadetblue;
+    color: black;
+    padding: 5px;
+    font-size: 25px;
+}
+
+p{
+    border: 3px solid black;
+    border-bottom: 5px dashed red;
+    color: blue;
+    /* width: 250px;
+    height: 30px; */
+    margin: 10px;
+}

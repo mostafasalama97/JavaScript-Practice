@@ -1,0 +1,122 @@
+#sound {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 570px;
+    left: 15px;
+}
+
+#gameover {
+    position: absolute;
+    width: 900px;
+    height: 700px;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+#youwon {
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    display: none;
+}
+
+#youlose {
+    width: 400px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    display: none;
+}
+
+#restart {
+    position: absolute;
+    top: 310px;
+    left: 155px;
+    cursor: pointer;
+    font-size: 1.25em;
+    color: #FFF;
+}
+
+#start {
+    position: absolute;
+    top: 280px;
+    left: 375px;
+    cursor: pointer;
+    font-size: 1.25em;
+    color: black;
+    padding: 20px;
+    /* background-color: ; */
+    width: 165px;
+    display: block;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#start:hover{
+    background-color: #BDAF92;
+    color: #AD420C;
+    box-shadow: 2px;
+}
+
+/* i {
+    /* width: 30px;
+    height: 30px;
+} */
+#dark_btn {
+    position: absolute;
+    display: block;
+    top: 575px; 
+    left: 870px;
+    cursor: pointer;
+    /* font-size: 12px; */
+    /* color: white; */
+    /* padding: 5px; */
+    background-color: white;
+    border-radius: 50%;
+    /* width: 30px;
+    height: 30px; */
+}
+
+#dark_btn:hover {
+    /* display: inline-block; */
+    /* padding: 2px; */
+    background-color: burlywood;
+}
+
+/* #container {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+
+#ran-btn {
+    position: absolute;
+    top: 30px;
+    left: 934px;
+    width: 153px;
+    height: 54px;
+    font-weight: bold;
+    background-color: azure;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+   
+}
+
+#ran-btn:hover {
+    cursor: pointer;
+    background-color:bisque ;
+    color: darkslategray;
+}
+
+canvas {
+    /* text-align: center; */
+    /* display:flex;
+    align-items: center;
+    justify-content: space-evenly; */
+    background-image: url('../img/front.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
